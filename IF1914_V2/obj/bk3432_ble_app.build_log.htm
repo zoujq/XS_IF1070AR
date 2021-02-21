@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.30.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: zou DELL, Microsoft, LIC=03C6R-KMQTU-HLRCL-0B5ZW-N80H2-QZFLS
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.30.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARM.DLL V5.30.0.0
+Dialog DLL:      DARMP3.DLL
+Target DLL:      Segger\JLTAgdi.dll V1.61.0.0
+Dialog DLL:      TARMP3.DLL V1.4.0.0
+ 
+<h2>Project:</h2>
+E:\ZOUJQ\1000-Project\1010-iF1914B-ElETCITY\BK3432_01\BK3432_DesignKit_V17_0C0A\SDK\projects\IF1914_V2\bk3432.uvproj
+Project File Date:  02/04/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'BK3432_app'
+After Build - User command #1: fromelf --bin --output .\output\app\bk3432_ble_app.bin .\obj\bk3432_ble_app.axf
+After Build - User command #2: .\output\encrypt_app.bat
+E:\ZOUJQ\1000-Project\1010-iF1914B-ElETCITY\BK3432_01\BK3432_DesignKit_V17_0C0A\SDK\projects\IF1914_V2>.\output\BinConvert_3432.exe  -oad .\output\bim\bk3432_ble_bim.bin  .\output\stack\bk3432_ble_stack.bin  .\output\app\bk3432_ble_app.bin -m 0x1020 -l 0x10420 -v 0x0018 -rom_v 0x000A -e 00000000 00000000 00000000 00000000 
+cmd_bin_oad.stack_file_addr :0x1020
+binary version hex:0x18; dec:24
+Arm Image Binary will be converted to OAD format binary file.....
+cmd_bin_oad.stack_file_addr=1020
+boot_bin_len=fa0
+add stack bin start
+oad_stack_app_bin_len=15500
+oad_app_bin_len=6100
+a9 98 b3 ea 18 00 40 18 42 42 42 42 ff ff 0a 00 /**< @CREATE_FILE_SUCCESS */
+/**< @Download flash file:.\output\app\bk3432_ble_app_merge.bin
+/**< @OAD file :.\output\app\bk3432_ble_app_stack.bin,CRC = 0xa24ed372
+/**< @OAD file :.\output\app\bk3432_ble_app_app.bin,CRC = 0xeab398a9
+/**< @author <gang.cheng@bekencorp.com> */
+/**< @version v0.3 */
+".\obj\bk3432_ble_app.axf" - 0 Error(s), 0 Warning(s).
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
